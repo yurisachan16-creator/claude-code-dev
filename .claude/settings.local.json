@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(json|yml|yaml|toml|md|rules\\)$\")",
+      "Bash(find D:社团练习claude-code-main -type f \\\\\\(-name *.test.ts -o -name *.spec.ts -o -name jest.config.* -o -name vitest.config.* \\\\\\))",
+      "Bash(wc -l D:社团练习claude-code-main/src/*.ts D:社团练习claude-code-main/src/*.tsx)",
+      "Bash(xargs wc:*)",
+      "Bash(ssh:*)"
+    ]
+  }
+}
